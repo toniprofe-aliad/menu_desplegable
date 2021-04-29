@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.nav__menu{
+    list-style-type: none;
+    flex-basis: 25vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__menu__sublink{
+    position: absolute;
+    display: none;
+}
+.nav__menu--desplegable{
+    cursor: pointer;
+}
+.nav__menu--desplegable:hover .nav__menu__sublink{
+    display: block;
+}
